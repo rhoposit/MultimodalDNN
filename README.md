@@ -2,7 +2,7 @@
 
 This repository provides code from the University of Edinburgh Team G25 for the ACL 2018 [Workshop on Human Multimodal Language](http://multicomp.cs.cmu.edu/acl2018multimodalchallenge/).
 
-### First Place in Emotion Recognition Challenge (all metrics) using MOSEI data
+### EMOTION - First Place in Emotion Recognition Challenge (all metrics) using MOSEI data
 
 Paper: [Recognizing Emotions in Video Using Multimodal DNN Feature Fusion](http://www.aclweb.org/anthology/W18-3302)
 
@@ -26,11 +26,19 @@ To cite (BibTeX):
 }
 ```
 
-### Multimodal Sentiment Analysis using MOSI data
+### SENTIMENT - Multimodal Sentiment Analysis using MOSI data
 
 Paper: [DNN Multimodal Fusion Techniques for Predicting Video Sentiment](http://www.aclweb.org/anthology/W18-3309)
 
 Code: MOSI_*.py
+
+Run: `MOSI_*.py [mode] [task]`
+
+Where `[mode]` specifies the multimodal inputs (A=Audio, V=Video, T=Text): `all`, `AV`, `AT`, `VT`, `V`, `T`, or `A`
+and `[task]` specifies if the task is binary, 5-class, or regression.
+
+This script will run a sweep of all parameters described in our paper.
+
 
 To cite (BibTeX):
 ```
