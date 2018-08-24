@@ -8,6 +8,12 @@ Paper: [Recognizing Emotions in Video Using Multimodal DNN Feature Fusion](http:
 
 Code: emotion_recognition.py
 
+Run: `emotion_recognition.py [mode]`
+
+Where `[mode]` specifies the multimodal inputs (A=Audio, V=Video, T=Text): `all`, `AV`, `AT`, `VT`, `V`, `T`, or `A`
+
+This script will run a sweep of all parameters described in our paper, including number of BLSTM layers and dropout rates. It is designed to run the sweep in parallel and thus requires a significant compute resource. 
+
 To cite (BibTeX):
 ```
 @inproceedings{williams2018a,
