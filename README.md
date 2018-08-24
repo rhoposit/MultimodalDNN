@@ -1,4 +1,4 @@
-# emotionChallenge
+# MultimodalDNN
 
 This repository provides code from the University of Edinburgh Team G25 for the ACL 2018 [Workshop on Human Multimodal Language](http://multicomp.cs.cmu.edu/acl2018multimodalchallenge/).
 
